@@ -9,7 +9,11 @@ import Title from "./Title";
 import SectionTwo from './sectionTwo'
 import SectionThree from './SectionThree'
 import Gallery from './Gallery'
+
+import AboutUs from './AboutUs'
+
 import SectionFour from './SectionFour'
+
 
 
 
@@ -18,6 +22,9 @@ import SectionFour from './SectionFour'
 const App = () => {
   return (
     <div>
+
+      <AboutUs/>
+
 
       <OnlineReservation/>
 
@@ -46,6 +53,7 @@ const App = () => {
 
 
     </div>
+
 
 
 
