@@ -4,7 +4,8 @@ import Title from "./Title";
 
 const App = () => {
   return (
-    <div
+    <div>
+      <div
       className="bg-cover bg-center h-screen my-auto relative"
       style={{
         backgroundImage: `url('image/hero.jpg')`,
@@ -13,6 +14,7 @@ const App = () => {
       <div className="absolute inset-0 bg-black opacity-50">
         <Header />
       </div>
+    </div>
     </div>
   );
 };
