@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     fontFamily: {
@@ -13,8 +14,13 @@ export default {
       fontFamily: {
         'heading': ['Playfair Display', 'serif'],
       },
+      backgroundImage: {
+        'hero-pattern': "url('/image/coffeeBottle.jpg')",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+]
 }
 
