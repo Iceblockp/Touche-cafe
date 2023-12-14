@@ -2,20 +2,20 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="py-9  bg-black">
-      <div className=" px-4 mx-auto">
-        <div className="grid grid-cols-3 gap-4 justify-around mx-6 ">
-          <div className=" px-7 mx-5">
-            <h2 className="text-yellow-500 font-bold text-xs ">ABOUT US</h2>
-            <p className="text-gray-500 pt-5 ">
+    <div className="py-28 md:py-20  bg-black">
+      <div className="lg:w-[1180px] md:w-[900px] sm:w-[600px]  px-4 mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-3  gap-4 justify-around  ">
+          <div className=" px-7 md:px-9 ">
+            <h2 className="text-yellow-400 font-bold text-xs mb-4">ABOUT US</h2>
+            <p className="text-gray-500 mb-6">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
               odio expedita debitis aut voluptatem a dignissimos numquam itaque
               saepe .
             </p>
           </div>
-          <div className="  px-7 mx-5">
-            <h2 className="text-yellow-500 font-bold text-xs ">CONTACT INFO</h2>
-            <div className="text-gray-500 pt-5 flex gap-2 ">
+          <div className="  px-7 ">
+            <h2 className="text-yellow-400 font-bold text-xs mb-4">CONTACT INFO</h2>
+            <div className="text-gray-500  flex gap-2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -29,9 +29,9 @@ const Footer = () => {
                   clip-rule="evenodd"
                 />
               </svg>
-              <p className="">1234 Altschul, Los Angles, CA 10027-0000</p>
+              <p className="mb-3">1234 Altschul, Los Angles, CA 10027-0000</p>
             </div>
-            <div className="text-gray-500 pt-5 flex gap-2 ">
+            <div className="text-gray-500 flex gap-2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -45,20 +45,20 @@ const Footer = () => {
                 />
               </svg>
 
-              <p className="">+1 987 654 3210</p>
+              <p className="mb-3">+1 987 654 3210</p>
             </div>
-            <div className="text-gray-500 pt-5 flex gap-2 ">
+            <div className="text-gray-500  flex gap-2 ">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6 absolute ">
   <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
 </svg>
-              <a className="underline text-yellow-500 ml-7">admin@domain.com</a>
+              <a className="underline text-yellow-400 ml-7 mb-6">admin@domain.com</a>
             </div>
           </div>
-          <div className="  px-7 mx-5">
-            <h2 className="text-yellow-500 font-bold text-xs ">
+          <div className="  px-7 ">
+            <h2 className="text-yellow-400 font-bold text-xs mb-4">
               OPENING HOURS
             </h2>
-            <p className="text-gray-500 pt-5 text-sm uppercase ">
+            <p className="text-gray-500  text-sm uppercase ">
               monday - thursday 
               <div className="mb-3 font-heading font-bold text-sm">
               10:000 am - 11:00 pm
@@ -71,12 +71,14 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="text-gray-500 px-7 mx-3 flex justify-center items-center">
-          <hr className="me-3 w-10" />
+        
+        </div>
+        <div className="text-gray-500 px-7 flex items-center ">
+          <hr className="me-3 w-10 " />
           <p> © 2021 Touché. All rights reserved.</p>
           </div>
-        </div>
       </div>
+     
     </div>
   );
 };

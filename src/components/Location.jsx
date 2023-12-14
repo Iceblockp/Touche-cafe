@@ -2,7 +2,7 @@ import React from "react";
 import locationImg from "../image/location.jpg";
 const Location = () => {
   return (
-    <div className="w-screen flex h-[480px]" >
+    <div className="w-100% flex h-[480px]" >
       
         <div className="mx-auto my-auto z-10 pb-14" >
           <svg
@@ -20,7 +20,7 @@ const Location = () => {
         </div >
 
       
-          <img className=" w-[1280px] h-[480px] absolute " src={locationImg} alt="" />
+          <img className="   container  h-[480px] absolute " src={locationImg} alt="" />
        
       
     </div>

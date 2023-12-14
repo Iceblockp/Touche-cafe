@@ -4,10 +4,13 @@ import Location from './Location'
 import Footer from './Footer'
 const App = () => {
   return (
-    <div>
+    <div >
+      <div className='min-w-[370px]'>
       < Gallery />
       < Location />
       < Footer />
+      </div>
+   
     </div>
   )
 }
