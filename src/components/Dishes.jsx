@@ -13,8 +13,8 @@ const Dishes = () => {
         <div className=' container mx-auto'>
             <div className="flex justify-center">
             <div className=" text-center max-w-md  ">
-                <h1 className=' font-heading font-[400] text-[1.75rem] leading-[1.4] mb-2'>Menu options</h1>
-                <p className=' mb-6 text-[#6c757d] leading-[1.7] '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione numquam eos perferendis itaque hic unde, ad, laudantium minima.</p>
+                <h1 className=' font-heading font-[400] text-[1.75rem] leading-[1.4] mb-2'> <i>Our featured</i> dishes</h1>
+                <p className=' mb-6 text-[#6c757d] leading-[1.7] '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam aliquam id sint accusamus eius voluptatum explicabo quae similique, quas.</p>
             </div>
             </div>
 
