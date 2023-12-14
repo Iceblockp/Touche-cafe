@@ -14,10 +14,13 @@ export default {
       fontFamily: {
         'heading': ['Playfair Display', 'serif'],
       },
+      backgroundImage: {
+        'hero-pattern': "url('/image/coffeeBottle.jpg')",
+      },
     },
   },
   plugins: [
     require('flowbite/plugin')
-]
+],
 }
 
