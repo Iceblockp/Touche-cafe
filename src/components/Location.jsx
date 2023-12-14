@@ -18,9 +18,12 @@ const Location = () => {
             />
           </svg>
         </div >
+<div className="w-full bg-cover bg-center absolute h-[480px] " style={{ backgroundImage: `url(${locationImg})` }} >
+
+</div>
 
       
-          <img className="   container  h-[480px] absolute " src={locationImg} alt="" />
+          {/* <img className=" w-screen  container  h-[480px] absolute " src={locationImg} alt="" /> */}
        
       
     </div>

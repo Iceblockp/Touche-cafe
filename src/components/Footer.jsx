@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="py-28 md:py-20  bg-black">
-      <div className="lg:w-[1180px] md:w-[900px] sm:w-[600px]  px-4 mx-auto">
+      <div className="lg:w-[1180px] md:w-[900px] sm:w-[600px] w-[400px ] px-4 mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-3  gap-4 justify-around  ">
           <div className=" px-7 md:px-9 ">
             <h2 className="text-yellow-400 font-bold text-xs mb-4">ABOUT US</h2>
@@ -73,7 +73,7 @@ const Footer = () => {
 
         
         </div>
-        <div className="text-gray-500 px-7 flex items-center ">
+        <div className="text-gray-500 px-7 flex items-center mb-5">
           <hr className="me-3 w-10 " />
           <p> © 2021 Touché. All rights reserved.</p>
           </div>
