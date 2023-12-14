@@ -1,9 +1,12 @@
 import React from 'react'
+import SectionTwo from './sectionTwo'
+import SectionThree from './SectionThree'
 
 const App = () => {
   return (
     <div>
-      App
+      <SectionTwo />
+      <SectionThree />
     </div>
   )
 }
