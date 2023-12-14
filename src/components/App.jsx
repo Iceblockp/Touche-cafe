@@ -1,5 +1,8 @@
 
 import React from 'react'
+
+import OnlineReservation from './OnlineReservation'
+
 import Dishes from './Dishes'
 import Header from "./Header";
 import Title from "./Title";
@@ -11,9 +14,13 @@ import SectionFour from './SectionFour'
 
 
 
+
 const App = () => {
   return (
     <div>
+
+      <OnlineReservation/>
+
 
       <Dishes />
       
@@ -39,6 +46,7 @@ const App = () => {
 
 
     </div>
+
 
 
 
