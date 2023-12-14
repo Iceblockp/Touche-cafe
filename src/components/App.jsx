@@ -2,14 +2,20 @@
 import React from "react";
 import Header from "./Header";
 import Title from "./Title";
+import SectionTwo from './sectionTwo'
+import SectionThree from './SectionThree'
 
-import React from 'react'
 import Gallery from './Gallery'
+
 
 
 const App = () => {
   return (
     <div>
+
+      <SectionTwo />
+      <SectionThree />
+
 
       <div
       className="bg-cover bg-center h-screen my-auto relative"
@@ -24,6 +30,7 @@ const App = () => {
       < Gallery />
 
     </div>
+
     </div>
   );
 };
