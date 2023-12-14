@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faFacebookF,
   faInstagram,
@@ -12,13 +13,13 @@ const Title = () => {
       <div className=" w-10/12 flex mx-auto">
         <div className=" mx-auto max-w-[550px]">
           <div className=" text-center ">
-            <h6 className=" text-xs mt-40">
+            <h6 className=" text-xs mt-10">
               {" "}
               <span className=" text-yellow-600 text-xs">CAFÉ / </span>
               RESTAURANT
             </h6>
             <h1 className=" text-[5rem] font-[700] font-heading mb-4">Touché</h1>
-            <p className=" mb-14 text-[rgba(225,225,225,0.75)]">
+            <p className=" mb-4 text-[rgba(225,225,225,0.75)]">
             A unique café located in the heart of Los Angeles. Always fresh coffee and biscuits. Open for indoor dining and to-go orders.
             </p>
 
@@ -50,7 +51,7 @@ const Title = () => {
         </div>
 
         <div id="address" className="">
-          <p className="font-heading ">
+          <div className="font-heading ">
             <div className=" flex gap-2 justify-center items-center text-center">
               <div>
                 <svg
@@ -75,7 +76,7 @@ const Title = () => {
               </div>
               <div>1234 Dining Str., Los Angeles, CA 12345-0000</div>
             </div>
-          </p>
+          </div>
         </div>
       </div>
     </div>
