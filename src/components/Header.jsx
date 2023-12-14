@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div id="header" className=" container mx-auto " >
-      <div className="flex justify-between ">
+    <div id="header" className=" container mx-auto">
+      <div className="flex justify-between pt-5">
         <div className=" flex  gap-4 mr-52">
           <a className="  p-4 " href="">
             ABOUT US

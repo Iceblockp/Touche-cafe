@@ -14,7 +14,7 @@ export default {
         'heading': ['Playfair Display', 'serif'],
       },
       backgroundImage: {
-        'hero-pattern': "url('./image/coffeeBottle.jpg')",
+        'hero-pattern': "url('/image/coffeeBottle.jpg')",
       },
     },
   },

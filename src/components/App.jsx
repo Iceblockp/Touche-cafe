@@ -3,8 +3,11 @@ import Header from './Header'
 
 const App = () => {
   return (
-    <div className='mt-7'>
-      <Header />
+    <div className="bg-cover bg-center h-screen"
+      style={{
+        backgroundImage: `url('image/coffeeBottle.jpg')`,
+      }}>
+      <Header/>
     </div>
   )
 }
