@@ -1,12 +1,23 @@
 
 import React from 'react'
+
+import OnlineReservation from './OnlineReservation'
+
 import Dishes from './Dishes'
 import Header from "./Header";
 import SectionThree from './SectionThree'
 import Gallery from './Gallery'
 
+
 import heroImg from "../image/hero.jpg"
 import SectionTwo from "./sectionTwo";
+
+import Newsletter from './Newsletter'
+
+import EventShow from './EventShow'
+
+import AboutUs from './AboutUs'
+
 
 import SectionFour from './SectionFour'
 import Menu from './Menu';
@@ -15,9 +26,29 @@ import Menu from './Menu';
 
 
 
+
+
+
 const App = () => {
   return (
     <div>
+
+
+
+       
+
+
+     
+
+
+      
+
+
+     
+
+
+      
+      
 
 
 
@@ -41,14 +72,20 @@ const App = () => {
 
 
 
+
     <SectionTwo/>
     
       <SectionThree />
       <SectionFour/>
       <Menu/>
       <Dishes/>
+      <OnlineReservation/>
+      <AboutUs/>
+      <EventShow/>
+      < Newsletter />
       <Gallery/>
     
+
 
 
 
