@@ -1,9 +1,10 @@
 import React from 'react'
+import OnlineReservation from './OnlineReservation'
 
 const App = () => {
   return (
     <div>
-      App
+      <OnlineReservation/>
     </div>
   )
 }
