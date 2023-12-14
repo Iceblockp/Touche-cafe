@@ -1,15 +1,20 @@
-import React from 'react'
-import Header from './Header'
+import React from "react";
+import Header from "./Header";
+import Title from "./Title";
 
 const App = () => {
   return (
-    <div className="bg-cover bg-center h-screen"
+    <div
+      className="bg-cover bg-center h-screen my-auto relative"
       style={{
-        backgroundImage: `url('image/coffeeBottle.jpg')`,
-      }}>
-      <Header/>
+        backgroundImage: `url('image/hero.jpg')`,
+      }}
+    >
+      <div className="absolute inset-0 bg-black opacity-50">
+        <Header />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
