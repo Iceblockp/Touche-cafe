@@ -1,9 +1,11 @@
 import React from 'react'
+import Dishes from './Dishes'
 
 const App = () => {
   return (
     <div>
-      App
+      <Dishes />
+      
     </div>
   )
 }
