@@ -1,10 +1,11 @@
 import React from 'react'
 import Gallery from './Gallery'
+import AboutUs from './AboutUs'
 
 const App = () => {
   return (
     <div>
-      < Gallery />
+      <AboutUs/>
     </div>
   )
 }
