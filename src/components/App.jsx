@@ -10,6 +10,18 @@ import SectionTwo from './sectionTwo'
 import SectionThree from './SectionThree'
 import Gallery from './Gallery'
 
+import Location from './Location'
+import Footer from './Footer'
+const App = () => {
+  return (
+    <div >
+      <div className='min-w-[370px]'>
+      < Gallery />
+      < Location />
+      < Footer />
+      </div>
+
+
 import Newsletter from './Newsletter'
 
 import EventShow from './EventShow'
@@ -64,6 +76,7 @@ const App = () => {
 
 
     </div>
+
 
 
 
