@@ -1,5 +1,6 @@
 
-import React from "react";
+import React from 'react'
+import Dishes from './Dishes'
 import Header from "./Header";
 import Title from "./Title";
 import SectionTwo from './sectionTwo'
@@ -9,9 +10,14 @@ import SectionFour from './SectionFour'
 
 
 
+
 const App = () => {
   return (
     <div>
+
+      <Dishes />
+      
+
 
       <SectionTwo />
       <SectionThree />
@@ -33,6 +39,7 @@ const App = () => {
 
 
     </div>
+
 
 
     </div>
