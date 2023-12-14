@@ -4,8 +4,8 @@ import Header from "./Header";
 import Title from "./Title";
 import SectionTwo from './sectionTwo'
 import SectionThree from './SectionThree'
-
 import Gallery from './Gallery'
+import SectionFour from './SectionFour'
 
 
 
@@ -29,7 +29,11 @@ const App = () => {
 
       < Gallery />
 
+      <SectionFour/>
+
+
     </div>
+
 
     </div>
   );
