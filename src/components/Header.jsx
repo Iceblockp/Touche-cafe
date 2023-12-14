@@ -1,9 +1,8 @@
 import React from "react";
-// import Hero form "../image/"
 
 const Header = () => {
   return (
-    <div id="header" className=" container mx-auto">
+    <div id="header" className=" container mx-auto " >
       <div className="flex justify-between ">
         <div className=" flex  gap-4 mr-52">
           <a className="  p-4 " href="">
