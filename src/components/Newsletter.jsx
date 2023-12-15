@@ -16,7 +16,7 @@ const Newsletter = () => {
           </div>
         </div>
         <div className=" w-full flex ">
-          <div className=" w-8/12 mx-auto flex  gap-5">
+          <div className=" w-8/12 mx-auto flex  gap-5 md:w-7/12">
             <div className=" md:w-7/12">
               <input
                 className=" w-full p-3 focus:outline-none border-none focus:border-yellow-300"
