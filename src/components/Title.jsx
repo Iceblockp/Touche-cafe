@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Title = () => {
+  
   return (
     <div className="">
       <div className=" w-10/12 flex mx-auto">
@@ -23,16 +24,16 @@ const Title = () => {
             A unique café located in the heart of Los Angeles. Always fresh coffee and biscuits. Open for indoor dining and to-go orders.
             </p>
 
-            <div className=" px-2 py-4 font-bold text-xs border border-yellow-500 w-56 mx-auto  mb-96 hover:text-yellow-600">
+            <div className=" px-2 py-4 font-bold text-xs border border-yellow-500 w-56 mx-auto  mb-24 hover:text-yellow-600">
               <a href="#"> MAKE RESERVATION</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div className=" flex justify-between">
+      <div className=" flex justify-between items-center gap-10 flex-col lg:flex-row">
 
-        <div id="socialLinks" className=" flex gap-8">
+        <div id="socialLinks" className=" flex lg:mb-10 gap-8">
          <div className=" hover:text-yellow-600">
          <a href="https://twitter.com/?lang=en">
             <FontAwesomeIcon icon={faXTwitter} />
@@ -50,7 +51,7 @@ const Title = () => {
          </div>
         </div>
 
-        <div id="address" className="">
+        <div id="address" className=" mb-10 ">
           <div className="font-heading ">
             <div className=" flex gap-2 justify-center items-center text-center">
               <div>

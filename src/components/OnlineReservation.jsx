@@ -1,6 +1,8 @@
 import React from 'react'
 
 const OnlineReservation = () => {
+    
+   
   return (
     <section className=' py-9 border-b border-b-gray-300 bg-[#e9ecef]'>
         <div className='container mx-auto mb-10'>
@@ -46,7 +48,8 @@ const OnlineReservation = () => {
                     </div>
                     <div className=' col-span-1 lg:col-span-2 flex justify-center'>
                     <div className=''>
-                        <button className=' border border-[#f5a637] px-[32px] py-[16px] font-[700] text-[.75rem] '>RESERVE A TABLE</button>
+                        <button 
+                         id='onlineBtn' className=' border border-[#f5a637] px-[32px] py-[16px] font-[700] text-[.75rem] '>RESERVE A TABLE</button>
                     </div>
                     </div>
                 </div>

@@ -18,7 +18,8 @@ const Dishes = () => {
             </div>
             </div>
 
-            <div className=" overflow-auto ">
+            <div className=" overflow-scroll relative">
+
                 <div className=" w-10/12 mx-auto flex gap-5">
                     {/* card */}
                 <div className=" max-w-[320px]">
