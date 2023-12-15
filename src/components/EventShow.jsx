@@ -17,7 +17,7 @@ const EventShow = () => {
 
       </div>
 
-        <div className=" relative overflow-hidden bg-[url('https://static.wixstatic.com/media/59a382_6661a12db8e441ceb72467b18f973b71~mv2.png/v1/crop/x_0,y_50,w_438,h_496/fill/w_438,h_494,al_c,q_85,enc_auto/unsplash_hgO1wFPXl3I.png')] bg-cover bg-center">
+        <div className=" relative overflow-hidden bg-[url('https://yevgenysim-turkey.github.io/touche/assets/img/8.jpg')] bg-cover bg-center">
          
           <div className=" relative z-30 ">
             <div className=" p-5 max-w-sm ml-[5%]">
