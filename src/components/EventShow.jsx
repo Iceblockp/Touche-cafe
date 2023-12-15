@@ -137,7 +137,7 @@ const EventShow = () => {
             </div>
           </div>
         </div>
-        <div className=" scale-0 group-hover:scale-100 group-hover:relative duration-500 absolute origin-top overflow-hidden bg-[url('https://yevgenysim-turkey.github.io/touche/assets/img/8.jpg')] bg-cover bg-center">
+        <div className=" scale-0 group-hover:scale-100 group-hover:relative duration-500 absolute origin-top overflow-hidden bg-[url('https://yevgenysim-turkey.github.io/touche/assets/img/10.jpg?fbclid=IwAR1v-x-0W3H9CFUhfLiemsfJgzZ6LgyfAS1fLXhidsjNy12AxKtY9lyRxfI')] bg-cover bg-center">
           <div className=" relative z-30 ">
             <div className=" p-5 max-w-sm ml-[5%]">
               <p className=" mt-20 text-[0.75rem] font-[700] tracking-[0.05em] text-[#f5a637] mb-4 ">
