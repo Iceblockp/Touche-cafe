@@ -1,0 +1,26 @@
+import React from "react";
+import Header from "./Header";
+import heroImg from "../image/hero.jpg";
+import "../../node_modules/waypoints/lib/noframework.waypoints"
+
+
+const NavBar = () => {
+
+
+  return (
+    <div className=" w-screen">
+      <div
+        className="bg-cover bg-center relative"
+        style={{
+          backgroundImage: `url(${heroImg})`,
+        }}
+      >
+        <div className=" w-full bg-[rgba(0,0,0,0.5)]">
+          <Header/>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default NavBar;
