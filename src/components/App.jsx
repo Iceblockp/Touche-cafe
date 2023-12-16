@@ -1,4 +1,6 @@
-import React from "react";
+
+import React from 'react'
+import Menu from './Menu'
 import OnlineReservation from "./OnlineReservation";
 import Dishes from "./Dishes";
 import SectionThree from "./SectionThree";
@@ -14,9 +16,15 @@ import Footer from "./Footer";
 import NavBar from "./NavBar";
 import TopHeader from "./TopHeader";
 
+
 const App = () => {
   return (
     <div>
+
+      
+      <Menu/>
+
+
       <TopHeader/>
       <NavBar />
       <SectionTwo />
@@ -32,7 +40,7 @@ const App = () => {
       <Gallery />
       <Location />
       <Footer />
-      
+
     </div>
   );
 };
