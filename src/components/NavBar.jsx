@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./Header";
 import heroImg from "../image/hero.jpg";
-import "../../node_modules/waypoints/lib/noframework.waypoints"
 
 
 const NavBar = () => {
