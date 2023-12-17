@@ -78,7 +78,7 @@ const Dishes = () => {
           </button>
 
           <div
-            className={` relative w-10/12 mx-auto translate-x-[${distant}rem]  flex gap-5`}
+            className={` relative w-10/12 mx-auto translate-x-[${distant}rem] duration-300  flex gap-5`}
           >
             {/* card */}
             <div className=" max-w-[320px]">
