@@ -6,6 +6,7 @@ import img29 from "../../image/29.jpg";
 import img30 from "../../image/30.jpg";
 import img31 from "../../image/31.jpg";
 
+
 const Dishes = () => {
   const [distant, setDistant] = useState(0);
 
@@ -19,6 +20,8 @@ const Dishes = () => {
       setDistant(distant - 16);
     }
   };
+
+ 
 
   return (
     <section className=" py-7 ">

@@ -10,10 +10,10 @@ import {
 const Title = () => {
   
   return (
-    <div className="">
+    <div className=" ">
       <div className=" w-10/12 flex mx-auto">
         <div className=" mx-auto max-w-[550px]">
-          <div className=" text-center ">
+          <div className=" text-center mt-28">
             <h6 className=" text-xs mt-10">
               {" "}
               <span className=" text-yellow-600 text-xs">CAFÉ / </span>

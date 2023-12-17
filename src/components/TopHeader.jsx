@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const TopHeader = () => {
+
+  const [start, setStart] = useState(true)
+
+  addEventListener("scroll",() => {
+    
+    scrollY > 20 ? setStart(false) : setStart(true)
+  })
+
   return (
     <div 
-    className=" sticky -top-8 z-50 w-full bg-white left-0">
-        <div className="flex w-10/12 mx-auto relative text-black items-center justify-between pt-5">
+    className=" fixed -top-8 z-50 w-full left-0">
+      <div className={`fixed w-full bg-white duration-300 -top-8 z-40 h-[100px] ${start && "-translate-y-20"}`}></div>
+        <div className={`flex z-50 w-10/12 mx-auto relative ${start ? "text-white" : "text-black"} items-center justify-between pt-5`}>
           <div className=" hidden lg:flex  font-bold text-sm">
             <a className="p-4  hover:text-yellow-400" href="">
               ABOUT US
@@ -17,7 +26,7 @@ const TopHeader = () => {
             </a>
           </div>
           <a
-            className=" font-heading p-4 font-bold text-[2rem] hover:text-yellow-400"
+            className=" font-heading p-4 font-[400] text-[2rem] hover:text-yellow-400"
             href="#Touche"
           >
             <i>Touché</i>
@@ -61,7 +70,7 @@ const TopHeader = () => {
 
 
      <div
-          className="items-center justify-between hidden w-full md:hidden md:w-auto md:order-1"
+          className="items-center justify-between hidden w-screen bg-white md:hidden md:w-auto md:order-1"
           id="navbar-sticky"
         >
           <ul className="flex w-10/12 mx-auto flex-col p-4 md:p-0 font-[700] text-[0.75rem] border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white ">
