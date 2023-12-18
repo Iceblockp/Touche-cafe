@@ -10,7 +10,7 @@ import {
 const Title = () => {
   return (
     <div className=" h-full flex flex-col">
-      <div className=" w-10/12 flex mx-auto h-[75%]">
+      <div className=" w-10/12 flex mx-auto h-[70%]">
         <div className=" mx-auto max-w-[550px] h-full">
           <div className=" text-center mt-28 h-full flex flex-col justify-center">
             <h6 className=" text-xs mt-10">
