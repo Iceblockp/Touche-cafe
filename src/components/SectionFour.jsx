@@ -8,7 +8,7 @@ const SectionFour = () => {
         <img className="absolute" src={coffeeBottle} alt="" />
         <div className="container relative bg-gradient-to-b from-white to-transparent">
           <div className="flex justify-center items-center md:py-9">
-            <div className=" w-9/12 mt-28">
+            <div className=" w-9/12 lg:mt-28">
               <hr className=" relative w-8 h-[3px] mb-3 bg-[#f5a637]" />
               <p className="z-10 relative text-[1.125rem] font-[400] ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit

@@ -26,7 +26,7 @@ const SectionThree = () => {
             </div>
           </div>
 
-          <div className=" h-full mx-auto justify-center md:w-5/12 items-center text-center ">
+          <div className="mt-5 lg:mt-28 h-full mx-auto justify-center md:w-5/12 items-center text-center ">
             <h2 className="font-heading font-[400] text-[1.75rem]  text-start">
               <i>Beautiful</i> outdoor seating
             </h2>

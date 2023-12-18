@@ -11,30 +11,30 @@ import gallery8 from "../image/gallery8.jpg";
 
 const GalleryPhotos = () => {
   return (
-    <div className="  grid lg:grid-cols-3 sm:grid-cols-2  gap-4 ">
-      <div className="  ">
-        <img src={gallery1} alt="" />
+    <div className="grid lg:grid-cols-3 sm:grid-cols-2  gap-4 ">
+      <div className="">
+        <img src={gallery1} alt="" className=" cursor-pointer" />
       </div>
       <div className=" row-span-2">
-        <img src={gallery2} alt="" />
+        <img src={gallery2} alt="" className=" cursor-pointer" />
       </div>
       <div className="lg:mt-0 sm:-mt-20">
-        <img src={gallery3} alt="" />
+        <img src={gallery3} alt="" className=" cursor-pointer" />
       </div>
       <div className="lg:-mt-10 sm:-mt-20">
-        <img src={gallery4} alt="" />
+        <img src={gallery4} alt="" className=" cursor-pointer" />
       </div>
       <div className="">
-        <img src={gallery5} alt="" />
+        <img src={gallery5} alt="" className=" cursor-pointer" />
       </div>
       <div className="lg:-mt-16 sm:-mt-28">
-        <img src={gallery6} alt="" />
+        <img src={gallery6} alt="" className=" cursor-pointer" />
       </div>
       <div className="">
-        <img src={gallery7} alt="" />
+        <img src={gallery7} alt="" className=" cursor-pointer" />
       </div>
       <div className="lg:mt-0 sm:-mt-24">
-        <img src={gallery8} alt="" />
+        <img src={gallery8} alt="" className=" cursor-pointer" />
       </div>
     </div>
   );
