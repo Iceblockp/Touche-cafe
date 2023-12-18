@@ -9,12 +9,12 @@ const NavBar = () => {
   return (
     <div className=" w-screen">
       <div
-        className="bg-cover bg-center relative"
+        className="bg-cover h-screen bg-center relative"
         style={{
           backgroundImage: `url(${heroImg})`,
         }}
       >
-        <div className=" w-full bg-[rgba(0,0,0,0.5)]">
+        <div className=" w-full h-full bg-[rgba(0,0,0,0.5)]">
           <Header/>
         </div>
       </div>
