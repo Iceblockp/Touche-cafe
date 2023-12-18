@@ -80,7 +80,7 @@ const TopHeader = () => {
       </div>
 
       <div
-        className={`items-center justify-between top-0 z-40 pt-16 ${nav ? "":"-translate-y-full"} duration-300 fixed w-screen bg-white`}
+        className={`items-center justify-between top-0 z-40 pt-16 ${nav ? "":"-translate-y-full"} lg:-translate-y-full duration-300 fixed w-screen bg-white`}
        
       >
       
