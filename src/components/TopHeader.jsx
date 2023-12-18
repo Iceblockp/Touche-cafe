@@ -74,14 +74,14 @@ const TopHeader = () => {
       </div>
 
       <div
-        className="items-center justify-between hidden w-screen bg-white md:hidden md:w-auto md:order-1"
+        className="animate__animated animate__slideInDown items-center justify-between hidden w-screen bg-white  lg:w-auto lg:order-1"
         id="navbar-sticky"
       >
-        <ul className="flex w-10/12 mx-auto flex-col p-4 md:p-0 font-[700] text-[0.75rem] border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white ">
+        <ul className="flex w-10/12 mx-auto flex-col p-4 lg:p-0 font-[700] text-[0.75rem] border border-gray-100 rounded-lg bg-gray-50 lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 lg:bg-white ">
           <li>
             <a
               href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-black bg-white rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+              className="block hover:text-yellow-400 py-2 px-3 text-black bg-white rounded lg:bg-transparent lg:text-yellow-400 lg:p-0 lg:dark:text-blue-500"
               aria-current="page"
             >
               ABOUT US
@@ -90,7 +90,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-yellow-400 lg:p-0 lg:dark:hover:text-yellow-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
             >
               MENU
             </a>
@@ -98,7 +98,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-yellow-400 lg:p-0 lg:dark:hover:text-yellow-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
             >
               RESERVATION
             </a>
@@ -106,7 +106,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-yellow-400 lg:p-0 lg:dark:hover:text-yellow-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
             >
               NEWS & EVENTS
             </a>
@@ -114,7 +114,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-yellow-400 lg:p-0 lg:dark:hover:text-yellow-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
             >
               GALLERY
             </a>
@@ -122,7 +122,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-yellow-400 lg:p-0 lg:dark:hover:text-yellow-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
             >
               CONTACT
             </a>
