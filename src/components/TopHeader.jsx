@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const TopHeader = () => {
   const [start, setStart] = useState(true);
-  const [nav,setNav] = useState(false);
+  const [nav, setNav] = useState(false);
 
   addEventListener("scroll", () => {
     scrollY > 20 ? setStart(false) : setStart(true);
@@ -10,8 +10,7 @@ const TopHeader = () => {
 
   const navBtn = () => {
     setNav(!nav);
-    
-  }
+  };
 
   return (
     <div className=" fixed -top-8 z-50 w-full left-0">
@@ -54,11 +53,9 @@ const TopHeader = () => {
           </a>
         </div>
         <button
-        onClick={navBtn}
-          
+          onClick={navBtn}
           type="button"
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg lg:hidden"
-         
         >
           <span className="sr-only">Open main menu</span>
           <svg
@@ -80,27 +77,15 @@ const TopHeader = () => {
       </div>
 
       <div
-<<<<<<< HEAD
-        className="animate__animated animate__slideInDown items-center justify-between hidden w-screen bg-white  lg:w-auto lg:order-1"
-        id="navbar-sticky"
+        className={`items-center justify-between top-0 z-40 pt-16 ${
+          nav ? "" : "-translate-y-full"
+        } lg:-translate-y-full duration-300 fixed w-screen bg-white`}
       >
-        <ul className="flex w-10/12 mx-auto flex-col p-4 lg:p-0 font-[700] text-[0.75rem] border border-gray-100 rounded-lg bg-gray-50 lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 lg:bg-white ">
-          <li>
-            <a
-              href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-black bg-white rounded lg:bg-transparent lg:text-yellow-400 lg:p-0 lg:dark:text-blue-500"
-=======
-        className={`items-center justify-between top-0 z-40 pt-16 ${nav ? "":"-translate-y-full"} lg:-translate-y-full duration-300 fixed w-screen bg-white`}
-       
-      >
-      
-        
         <ul className="flex w-10/12 mx-auto flex-col p-4 font-[700] text-[0.75rem] border border-gray-100 rounded-lg bg-gray-50 rtl:space-x-reverse  ">
           <li>
             <a
               href="#"
               className="block hover:text-yellow-400 py-2 px-3 text-black bg-white rounded "
->>>>>>> 4e8505ab186f5e540d860667db9af35f03cca16a
               aria-current="page"
             >
               ABOUT US
@@ -109,11 +94,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-<<<<<<< HEAD
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-yellow-400 lg:p-0 lg:dark:hover:text-yellow-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-=======
               className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
->>>>>>> 4e8505ab186f5e540d860667db9af35f03cca16a
             >
               MENU
             </a>
@@ -121,11 +102,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-<<<<<<< HEAD
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-yellow-400 lg:p-0 lg:dark:hover:text-yellow-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-=======
               className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
->>>>>>> 4e8505ab186f5e540d860667db9af35f03cca16a
             >
               RESERVATION
             </a>
@@ -133,11 +110,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-<<<<<<< HEAD
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-yellow-400 lg:p-0 lg:dark:hover:text-yellow-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-=======
               className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
->>>>>>> 4e8505ab186f5e540d860667db9af35f03cca16a
             >
               NEWS & EVENTS
             </a>
@@ -145,11 +118,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-<<<<<<< HEAD
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-yellow-400 lg:p-0 lg:dark:hover:text-yellow-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-=======
               className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
->>>>>>> 4e8505ab186f5e540d860667db9af35f03cca16a
             >
               GALLERY
             </a>
@@ -157,11 +126,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-<<<<<<< HEAD
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:hover:text-yellow-400 lg:p-0 lg:dark:hover:text-yellow-400 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-=======
               className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
->>>>>>> 4e8505ab186f5e540d860667db9af35f03cca16a
             >
               CONTACT
             </a>
