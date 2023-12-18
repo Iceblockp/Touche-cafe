@@ -40,7 +40,7 @@ const Dishes = () => {
           </div>
         </div>
 
-        <div className=" overflow-hidden relative">
+        <div className=" overflow-auto relative">
           <button
             onClick={increase}
             className=" z-30 bg-[#e9ecef] left-[9vw] h-[48px] w-[48px] rounded-full flex justify-center items-center sticky top-[30%]"

@@ -2,10 +2,16 @@ import React, { useState } from "react";
 
 const TopHeader = () => {
   const [start, setStart] = useState(true);
+  const [nav,setNav] = useState(false);
 
   addEventListener("scroll", () => {
     scrollY > 20 ? setStart(false) : setStart(true);
   });
+
+  const navBtn = () => {
+    setNav(!nav);
+    
+  }
 
   return (
     <div className=" fixed -top-8 z-50 w-full left-0">
@@ -16,7 +22,7 @@ const TopHeader = () => {
       ></div>
       <div
         className={`flex z-50 w-10/12 mx-auto relative ${
-          start ? "text-white" : "text-black"
+          !start || nav ? "text-black" : "text-white"
         } items-center justify-between pt-5`}
       >
         <div className=" hidden lg:flex  font-bold text-sm">
@@ -48,11 +54,11 @@ const TopHeader = () => {
           </a>
         </div>
         <button
-          data-collapse-toggle="navbar-sticky"
+        onClick={navBtn}
+          
           type="button"
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg lg:hidden"
-          aria-controls="navbar-sticky"
-          aria-expanded="false"
+         
         >
           <span className="sr-only">Open main menu</span>
           <svg
@@ -74,14 +80,16 @@ const TopHeader = () => {
       </div>
 
       <div
-        className="items-center justify-between hidden w-screen bg-white md:hidden md:w-auto md:order-1"
-        id="navbar-sticky"
+        className={`items-center justify-between top-0 z-40 pt-16 ${nav ? "":"-translate-y-full"} duration-300 fixed w-screen bg-white`}
+       
       >
-        <ul className="flex w-10/12 mx-auto flex-col p-4 md:p-0 font-[700] text-[0.75rem] border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white ">
+      
+        
+        <ul className="flex w-10/12 mx-auto flex-col p-4 font-[700] text-[0.75rem] border border-gray-100 rounded-lg bg-gray-50 rtl:space-x-reverse  ">
           <li>
             <a
               href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-black bg-white rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+              className="block hover:text-yellow-400 py-2 px-3 text-black bg-white rounded "
               aria-current="page"
             >
               ABOUT US
@@ -90,7 +98,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
             >
               MENU
             </a>
@@ -98,7 +106,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
             >
               RESERVATION
             </a>
@@ -106,7 +114,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
             >
               NEWS & EVENTS
             </a>
@@ -114,7 +122,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
             >
               GALLERY
             </a>
@@ -122,7 +130,7 @@ const TopHeader = () => {
           <li>
             <a
               href="#"
-              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+              className="block hover:text-yellow-400 py-2 px-3 text-gray-900 rounded hover:bg-gray-100 "
             >
               CONTACT
             </a>
