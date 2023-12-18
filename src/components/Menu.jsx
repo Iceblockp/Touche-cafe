@@ -1,4 +1,3 @@
-
 import React from "react";
 import img26 from "../../image/26.jpg";
 import img27 from "../../image/27.jpg";
@@ -9,7 +8,7 @@ import img31 from "../../image/31.jpg";
 
 const Menu = () => {
   return (
-    <section className=" py-7 border-b border-b-gray-300">
+    <section className="  py-7 border-b border-b-gray-300">
       <div className=" container mx-auto mb-10">
         <div className="flex justify-center">
           <div className=" text-center max-w-md  ">
@@ -188,4 +187,3 @@ const Menu = () => {
 };
 
 export default Menu;
-

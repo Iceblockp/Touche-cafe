@@ -8,7 +8,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Title = () => {
-  
   return (
     <div className=" ">
       <div className=" w-10/12 flex mx-auto">
@@ -16,15 +15,18 @@ const Title = () => {
           <div className=" text-center mt-28">
             <h6 className=" text-xs mt-10">
               {" "}
-              <span className=" text-yellow-600 text-xs">CAFÉ / </span>
+              <span className=" text-yellow-400 text-xs">CAFÉ / </span>
               RESTAURANT
             </h6>
-            <h1 className=" text-[5rem] font-[700] font-heading mb-4">Touché</h1>
+            <h1 className=" text-[5rem] font-[700] font-heading mb-4">
+              Touché
+            </h1>
             <p className=" mb-4 text-[rgba(225,225,225,0.75)]">
-            A unique café located in the heart of Los Angeles. Always fresh coffee and biscuits. Open for indoor dining and to-go orders.
+              A unique café located in the heart of Los Angeles. Always fresh
+              coffee and biscuits. Open for indoor dining and to-go orders.
             </p>
 
-            <div className=" px-2 py-4 font-bold text-xs border border-yellow-500 w-56 mx-auto  mb-24 hover:text-yellow-600">
+            <div className=" px-2 py-4 font-bold text-xs border border-yellow-400 w-56 mx-auto  mb-24 hover:text-yellow-400">
               <a href="#"> MAKE RESERVATION</a>
             </div>
           </div>
@@ -32,23 +34,22 @@ const Title = () => {
       </div>
 
       <div className=" flex justify-between items-center gap-10 flex-col lg:flex-row">
-
         <div id="socialLinks" className=" flex lg:mb-10 gap-8">
-         <div className=" hover:text-yellow-600">
-         <a href="https://twitter.com/?lang=en">
-            <FontAwesomeIcon icon={faXTwitter} />
-          </a>
-         </div>
-          <div className=" hover:text-yellow-600">
-          <a href="https://www.facebook.com/">
-            <FontAwesomeIcon icon={faFacebookF} />
-          </a>
+          <div className=" hover:text-yellow-400">
+            <a href="https://twitter.com/?lang=en">
+              <FontAwesomeIcon icon={faXTwitter} />
+            </a>
           </div>
-         <div className=" hover:text-yellow-600">
-         <a href="https://www.instagram.com/">
-            <FontAwesomeIcon icon={faInstagram} />
-          </a>
-         </div>
+          <div className=" hover:text-yellow-400">
+            <a href="https://www.facebook.com/">
+              <FontAwesomeIcon icon={faFacebookF} />
+            </a>
+          </div>
+          <div className=" hover:text-yellow-400">
+            <a href="https://www.instagram.com/">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+          </div>
         </div>
 
         <div id="address" className=" mb-10 ">
@@ -61,7 +62,7 @@ const Title = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-5 h-5 pointer-events-none text-yellow-600"
+                  className="w-5 h-5 pointer-events-none text-yellow-400"
                 >
                   <path
                     strokeLinecap="round"

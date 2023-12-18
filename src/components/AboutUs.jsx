@@ -121,17 +121,17 @@ const AboutUs = () => {
             </div>
           </div>
           {/* Slider indicators */}
-          <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+          <div className="  absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse bg-black">
             <button
               type="button"
-              className="w-3 h-3 rounded-full bg-gray-400 focus:bg-yellow-400 "
+              className="w-3 h-3 rounded-full bg-gray-400 hover:bg-yellow-300 focus:bg-yellow-300 "
               aria-current="true"
               aria-label="Slide 1"
               data-carousel-slide-to={0}
             />
             <button
               type="button"
-              className="w-3 h-3 rounded-full bg-gray-400 focus:bg-yellow-400 "
+              className="w-3 h-3 rounded-full bg-gray-400 focus:bg-yellow-400 hover:bg-yellow-300 "
               aria-current="false"
               aria-label="Slide 2"
               data-carousel-slide-to={1}
@@ -147,11 +147,11 @@ const AboutUs = () => {
           {/* Slider controls */}
           <button
             type="button"
-            className="absolute bg-white
+            className="absolute bg-white 
              top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             data-carousel-prev
           >
-            <span className="inline-flex bg-gray-300 items-center justify-center w-10 h-10 rounded-full bg-white/30 hover:bg-yellow-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <span className="inline-flex  items-center justify-center w-10 h-10  rounded-full bg-gray-200 hover:bg-yellow-300 p-4 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
               <svg
                 className="w-4 h-4 text-black  rtl:rotate-180"
                 aria-hidden="true"
@@ -175,7 +175,7 @@ const AboutUs = () => {
             className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             data-carousel-next
           >
-            <span className="inline-flex bg-gray-300 items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 hover:bg-yellow-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <span className="inline-flex bg-gray-200 items-center justify-center w-10 h-10 rounded-full  dark:bg-gray-800/30 hover:bg-yellow-300 dark:group-hover:bg-gray-800/60 group-focus:ring-4 p-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
               <svg
                 className="w-4 h-4 text-black dark:text-gray-800 rtl:rotate-180"
                 aria-hidden="true"
@@ -195,7 +195,7 @@ const AboutUs = () => {
             </span>
           </button>
         </div>
-
+        <hr />
         {/* example  */}
       </div>
     </div>

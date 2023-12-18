@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const TopHeader = () => {
   const [start, setStart] = useState(true);
-  const [nav,setNav] = useState(false);
+  const [nav, setNav] = useState(false);
 
   addEventListener("scroll", () => {
     scrollY > 20 ? setStart(false) : setStart(true);
@@ -10,8 +10,7 @@ const TopHeader = () => {
 
   const navBtn = () => {
     setNav(!nav);
-    
-  }
+  };
 
   return (
     <div className=" fixed -top-8 z-50 w-full left-0">
@@ -54,11 +53,9 @@ const TopHeader = () => {
           </a>
         </div>
         <button
-        onClick={navBtn}
-          
+          onClick={navBtn}
           type="button"
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg lg:hidden"
-         
         >
           <span className="sr-only">Open main menu</span>
           <svg
@@ -80,11 +77,10 @@ const TopHeader = () => {
       </div>
 
       <div
-        className={`items-center justify-between top-0 z-40 pt-16 ${nav ? "":"-translate-y-full"} lg:-translate-y-full duration-300 fixed w-screen bg-white`}
-       
+        className={`items-center justify-between top-0 z-40 pt-16 ${
+          nav ? "" : "-translate-y-full"
+        } lg:-translate-y-full duration-300 fixed w-screen bg-white`}
       >
-      
-        
         <ul className="flex w-10/12 mx-auto flex-col p-4 font-[700] text-[0.75rem] border border-gray-100 rounded-lg bg-gray-50 rtl:space-x-reverse  ">
           <li>
             <a
