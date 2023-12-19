@@ -1,5 +1,4 @@
 import React from "react";
-
 import OnlineReservation from "./OnlineReservation";
 import Dishes from "./Dishes";
 import SectionThree from "./SectionThree";
@@ -8,10 +7,8 @@ import Newsletter from "./Newsletter";
 import EventShow from "./EventShow";
 import AboutUs from "./AboutUs";
 import SectionFour from "./SectionFour";
-
 import SectionTwo from "./sectionTwo";
 import Location from "./Location";
-
 import NavBar from "./NavBar";
 import TopHeader from "./TopHeader";
 import Menu from "./Menu";
@@ -19,7 +16,7 @@ import Footer from "./Footer";
 
 const App = () => {
   return (
-    <div>
+    <div className=" overflow-hidden">
       <TopHeader />
       <NavBar />
       <SectionTwo />

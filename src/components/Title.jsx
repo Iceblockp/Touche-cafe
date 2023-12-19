@@ -9,10 +9,10 @@ import {
 
 const Title = () => {
   return (
-    <div className=" h-full flex flex-col">
+    <div className=" h-full flex flex-col ">
       <div className=" max-w-1140 flex mx-auto h-[75%]">
         <div className=" mx-auto max-w-[550px] h-full">
-          <div className=" text-center mt-28 h-full flex flex-col justify-center">
+          <div className=" text-center mt-20 h-full flex flex-col justify-center">
             <h6 className=" text-xs mt-10">
               {" "}
               <span className=" text-yellow-400 text-xs">CAFÉ / </span>
@@ -33,7 +33,7 @@ const Title = () => {
         </div>
       </div>
 
-      <div className="flex justify-between items-center gap-10 flex-col lg:flex-row mt-auto">
+      <div className="flex justify-between items-center gap-8 flex-col lg:flex-row mt-auto">
         <div id="socialLinks" className=" flex lg:mb-10 gap-8">
           <div className=" hover:text-yellow-400">
             <a href="https://twitter.com/?lang=en">
