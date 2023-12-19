@@ -25,13 +25,13 @@ const TopHeader = () => {
         } items-center justify-between pt-5`}
       >
         <div className=" hidden lg:flex  font-bold text-sm">
-          <a className="p-4  hover:text-yellow-400" href="">
+          <a className="p-4 hover:text-yellow-400" href="">
             ABOUT US
           </a>
-          <a className="p-4  hover:text-yellow-400" href="#MENU">
+          <a className="p-4 hover:text-yellow-400" href="#MENU">
             MENU
           </a>
-          <a className="p-4  hover:text-yellow-400" href="#RESERVATION">
+          <a className="p-4 hover:text-yellow-400" href="#RESERVATION">
             RESERVATION
           </a>
         </div>
