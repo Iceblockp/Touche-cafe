@@ -121,7 +121,7 @@ const AboutUs = () => {
             </div>
           </div>
           {/* Slider indicators */}
-          <div className="  absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse bg-black">
+          <div className="  absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse bg-slate-50">
             <button
               type="button"
               className="w-3 h-3 rounded-full bg-gray-400 hover:bg-yellow-300 focus:bg-yellow-300 "
@@ -138,7 +138,7 @@ const AboutUs = () => {
             />
             <button
               type="button"
-              className="w-3 h-3 rounded-full bg-gray-400 focus:bg-yellow-400"
+              className="w-3 h-3 rounded-full bg-gray-400 focus:bg-yellow-400 hover:bg-yellow-300"
               aria-current="false"
               aria-label="Slide 3"
               data-carousel-slide-to={2}

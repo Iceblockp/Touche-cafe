@@ -12,14 +12,16 @@ const Dishes = () => {
 
   const increase = () => {
     if (distant < 0) {
-      setDistant(distant + 16);
+      setDistant(prev => prev + 16);
     }
   };
   const decrease = () => {
     if (distant > -80) {
-      setDistant(distant - 16);
+      setDistant(prev => prev - 16);
+      
     }
   };
+  
 
  
 
