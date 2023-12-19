@@ -1,6 +1,6 @@
 
+import React from "react";
 
-import React from 'react'
 import OnlineReservation from "./OnlineReservation";
 import Dishes from "./Dishes";
 import SectionThree from "./SectionThree";
@@ -19,8 +19,10 @@ import SectionTwo from './SectionTwo';
 
 
 
+
 const App = () => {
   return (
+
     <div className=" overflow-hidden">
       <TopHeader />
       <NavBar />
@@ -35,7 +37,7 @@ const App = () => {
       <Newsletter />
       <Gallery />
       <Location />
-      <Footer />
+
     </div>
   );
 };
