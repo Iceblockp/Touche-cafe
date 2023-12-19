@@ -20,11 +20,11 @@ const TopHeader = () => {
         }`}
       ></div>
       <div
-        className={`flex z-50 w-10/12 mx-auto relative ${
+        className={`flex z-50 max-w-1140 mx-auto relative ${
           !start || nav ? "text-black" : "text-white"
-        } items-center justify-between pt-5`}
+        } items-center justify-between pt-5 mt-2`}
       >
-        <div className=" hidden lg:flex  font-bold text-sm">
+        <div className=" hidden lg:flex  font-bold text-xs">
           <a className="p-4  hover:text-yellow-400" href="">
             ABOUT US
           </a>
@@ -41,7 +41,7 @@ const TopHeader = () => {
         >
           <i>Touché</i>
         </a>
-        <div className=" hidden lg:flex  gap-4 font-bold text-sm ">
+        <div className=" hidden lg:flex gap-4 font-bold text-xs ">
           <a className="p-4 hover:text-yellow-400" href="#NEWS & EVENTS">
             NEWS & EVENTS
           </a>
