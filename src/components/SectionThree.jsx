@@ -16,9 +16,10 @@ const SectionThree = () => {
             </div>
 
             <div className=" md:px-16">
-              <div className="">
+              <div className=" relative md:mt-8">
+                <div className=" hidden md:block absolute w-full h-full bg-gray-100 -translate-x-8 -translate-y-6"></div>
                 <img
-                  className=" mb-7"
+                  className=" mb-7 relative"
                   src="https://yevgenysim-turkey.github.io/touche/assets/img/7.jpg"
                   alt=""
                 />
