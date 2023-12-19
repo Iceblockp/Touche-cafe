@@ -14,7 +14,7 @@ const SectionTwo = () => {
             </div>
             <div className=" col-span-1 md:col-span-3">
               <div className=" relative">
-                <div className="absolute border hidden md:block border-gray-200 w-full h-full translate-x-8 translate-y-6 "></div>
+                <div className="absolute border hidden md:block border-gray-200 w-full h-full  translate-x-8 translate-y-6 "></div>
                 <div className=" relative mb-7">
                   <img
                     className="max-w-full"
@@ -24,7 +24,7 @@ const SectionTwo = () => {
                 </div>
               </div>
             </div>
-            <div className="flex ms-8 col-span-1 md:col-span-7">
+            <div className="flex md:ms-0 lg:ms-8 col-span-1 md:col-span-7">
               <div className="flex mx-auto  text-center h-full justify-center items-center">
                 <div className="text-start">
                   <h2 className="font-heading font-semi-bold text-3xl ">
