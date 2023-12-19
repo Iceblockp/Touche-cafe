@@ -9,10 +9,13 @@ import {
 
 const Title = () => {
   return (
+
     <div className=" h-full flex flex-col">
-      <div className=" w-10/12 flex mx-auto h-[70%]">
+      <div className=" max-w-1140 flex mx-auto h-[75%]">
+
+
         <div className=" mx-auto max-w-[550px] h-full">
-          <div className=" text-center mt-28 h-full flex flex-col justify-center">
+          <div className=" text-center mt-20 h-full flex flex-col justify-center">
             <h6 className=" text-xs mt-10">
               {" "}
               <span className=" text-yellow-400 text-xs">CAFÉ / </span>
@@ -21,19 +24,21 @@ const Title = () => {
             <h1 className=" text-[5rem] font-[700] font-heading mb-4">
               Touché
             </h1>
-            <p className=" mb-4 text-[rgba(225,225,225,0.75)]">
+            <p className=" mb-8 text-[rgba(225,225,225,0.75)]">
               A unique café located in the heart of Los Angeles. Always fresh
               coffee and biscuits. Open for indoor dining and to-go orders.
             </p>
 
-            <div className=" px-2 py-4 font-bold text-xs border border-yellow-400 w-56 mx-auto  mb-24 hover:text-yellow-400">
+            <div className=" px-0.5 py-4 font-bold text-xs border border-yellow-400 w-52 mx-auto mb-22 hover:text-yellow-400">
               <a href="#"> MAKE RESERVATION</a>
             </div>
           </div>
         </div>
       </div>
 
-      <div className=" flex justify-between items-center gap-10 flex-col lg:flex-row mt-auto">
+
+      <div className="flex justify-between items-center gap-8 flex-col lg:flex-row mt-auto">
+
         <div id="socialLinks" className=" flex lg:mb-10 gap-8">
           <div className=" hover:text-yellow-400">
             <a href="https://twitter.com/?lang=en">
@@ -52,8 +57,8 @@ const Title = () => {
           </div>
         </div>
 
-        <div id="address" className=" mb-10 ">
-          <div className="font-heading ">
+        <div id="address" className=" mb-14">
+          <div className="">
             <div className=" flex gap-2 justify-center items-center text-center">
               <div>
                 <svg
@@ -62,7 +67,7 @@ const Title = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-5 h-5 pointer-events-none text-yellow-400"
+                  className="w-4 h-4 pointer-events-none text-yellow-400"
                 >
                   <path
                     strokeLinecap="round"
@@ -76,7 +81,9 @@ const Title = () => {
                   />
                 </svg>
               </div>
-              <div>1234 Dining Str., Los Angeles, CA 12345-0000</div>
+              <div className=" text-base font-heading text-gray-300">
+                1234 Dining Str., Los Angeles, CA 12345-0000
+              </div>
             </div>
           </div>
         </div>

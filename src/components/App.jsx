@@ -1,4 +1,6 @@
+
 import React from "react";
+
 import OnlineReservation from "./OnlineReservation";
 import Dishes from "./Dishes";
 import SectionThree from "./SectionThree";
@@ -12,25 +14,30 @@ import NavBar from "./NavBar";
 import TopHeader from "./TopHeader";
 import Menu from "./Menu";
 import Footer from "./Footer";
-import SectionTwo from "./SectionTwo";
+import SectionTwo from './SectionTwo';
+
+
+
+
 
 const App = () => {
   return (
-    <div>
-      {/* <TopHeader /> */}
-      {/* <NavBar /> */}
-      {/* <SectionTwo /> */}
-      {/* <SectionThree /> */}
-      {/* <SectionFour /> */}
-      {/* <Menu /> */}
-      {/* <Dishes /> */}
-      {/* <OnlineReservation /> */}
-      {/* <AboutUs /> */}
+
+    <div className=" overflow-hidden">
+      <TopHeader />
+      <NavBar />
+      <SectionTwo/>
+      <SectionThree />
+      <SectionFour />
+      <Menu />
+      <Dishes />
+      <OnlineReservation />
+      <AboutUs />
       <EventShow />
-      {/* <Newsletter /> */}
-      {/* <Gallery /> */}
-      {/* <Location /> */}
-      {/* <Footer /> */}
+      <Newsletter />
+      <Gallery />
+      <Location />
+
     </div>
   );
 };
