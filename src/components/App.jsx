@@ -25,7 +25,7 @@ const App = () => {
       <TopHeader/>
       <NavBar />
       <SectionTwo />
-      {/* <SectionThree /> */}
+      <SectionThree />
       <SectionFour />
       <Menu/>
       <Dishes />
