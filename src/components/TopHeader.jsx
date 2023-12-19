@@ -79,7 +79,7 @@ const TopHeader = () => {
       <div
         className={`items-center justify-between top-0 z-40 pt-16 ${
           nav ? "" : "-translate-y-full"
-        } lg:-translate-y-full duration-300 fixed w-screen bg-white`}
+        } lg:-translate-y-full duration-300 fixed w-full bg-white`}
       >
         <ul className="flex w-10/12 mx-auto flex-col p-4 font-[700] text-[0.75rem] border border-gray-100 rounded-lg bg-gray-50 rtl:space-x-reverse  ">
           <li>

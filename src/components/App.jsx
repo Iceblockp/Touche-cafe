@@ -1,4 +1,5 @@
 
+
 import React from 'react'
 import OnlineReservation from "./OnlineReservation";
 import Dishes from "./Dishes";
@@ -20,7 +21,7 @@ import SectionTwo from './SectionTwo';
 
 const App = () => {
   return (
-    <div>
+    <div className=" overflow-hidden">
       <TopHeader />
       <NavBar />
       <SectionTwo/>
