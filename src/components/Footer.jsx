@@ -3,18 +3,22 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="py-28 md:py-20  bg-black">
-      <div className="lg:w-[1180px] md:w-[900px] sm:w-[600px] w-[400px ] px-4 mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-3  gap-4 justify-around  ">
-          <div className=" px-7 md:px-9 ">
-            <h2 className="text-yellow-400 font-bold text-xs mb-4">ABOUT US</h2>
-            <p className="text-gray-500 mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-              odio expedita debitis aut voluptatem a dignissimos numquam itaque
-              saepe .
+      <div className="xl:w-[1140px] lg:w-[960px] md:w-[720px] sm:w-[540px] mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-3 justify-around h-[200px] ">
+          <div className=" px-6 ">
+            <h2 className="text-yellow-400 font-bold text-xs mb-2 ">
+              ABOUT US
+            </h2>
+            <p className="text-gray-500 mb-6 leading-7 ">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+              dolorum, sint corporis nostrum, possimus unde eos vitae eius quasi
+              saepe.
             </p>
           </div>
-          <div className="  px-7 ">
-            <h2 className="text-yellow-400 font-bold text-xs mb-4">CONTACT INFO</h2>
+          <div className="  px-6 ">
+            <h2 className="text-yellow-400 font-bold text-xs mb-4">
+              CONTACT INFO
+            </h2>
             <div className="text-gray-500  flex gap-2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,37 +52,50 @@ const Footer = () => {
               <p className="mb-3">+1 987 654 3210</p>
             </div>
             <div className="text-gray-500  flex gap-2 ">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-6 absolute ">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-</svg>
-              <a className="underline text-yellow-400 ml-7 mb-6 cursor-pointer">admin@domain.com</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-4 h-6 absolute "
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                />
+              </svg>
+              <a className="underline text-yellow-400 ml-7 mb-6 cursor-pointer">
+                admin@domain.com
+              </a>
             </div>
           </div>
           <div className="  px-7 ">
             <h2 className="text-yellow-400 font-bold text-xs mb-4">
               OPENING HOURS
             </h2>
-            <div className="text-gray-500  text-sm uppercase ">
-              monday - thursday 
-              <div className="mb-3 font-heading font-bold text-sm">
-              10:000 am - 11:00 pm
+            <div className="mb-3">
+              <div className="text-gray-500  text-sm uppercase ">
+                <div> monday - thursday</div>
+                <div className="mb-3 font-heading font-bold text-sm">
+                  10:000 am - 11:00 pm
+                </div>
               </div>
-             
-              friday - sunday
-              <div className="mb-3 font-heading font-bold text-md">
-              12:00 am -03:00 am
+              <div className="mb-3">
+                <div> friday - sunday</div>
+                <div className=" font-heading font-bold text-md">
+                  12:00 am -03:00 am
+                </div>
               </div>
             </div>
           </div>
-
-        
         </div>
         <div className="text-gray-500 px-7 flex items-center mb-5">
           <hr className="me-3 w-10 " />
           <p> © 2021 Touché. All rights reserved.</p>
-          </div>
+        </div>
       </div>
-     
     </div>
   );
 };
