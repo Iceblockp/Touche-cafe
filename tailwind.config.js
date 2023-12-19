@@ -3,24 +3,24 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./node_modules/flowbite/**/*.js"
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
     fontFamily: {
-      'sans': ['Lato', 'sans-serif'],
+      sans: ["Lato", "sans-serif"],
     },
 
     extend: {
       fontFamily: {
-        'heading': ['Playfair Display', 'serif'],
+        heading: ["Playfair Display", "serif"],
       },
       backgroundImage: {
-        'hero-pattern': "url('/image/coffeeBottle.jpg')",
+        "hero-pattern": "url('/image/coffeeBottle.jpg')",
+      },
+      maxWidth: {
+        1140: "1140px",
       },
     },
   },
-  plugins: [
-    require('flowbite/plugin')
-],
-}
-
+  plugins: [require("flowbite/plugin")],
+};
