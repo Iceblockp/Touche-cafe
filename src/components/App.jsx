@@ -1,5 +1,4 @@
-
-import React from 'react'
+import React from "react";
 import OnlineReservation from "./OnlineReservation";
 import Dishes from "./Dishes";
 import SectionThree from "./SectionThree";
@@ -11,21 +10,19 @@ import SectionFour from "./SectionFour";
 import Location from "./Location";
 import NavBar from "./NavBar";
 import TopHeader from "./TopHeader";
-import Menu from './Menu';
-import Footer from './Footer';
-import SectionTwo from './SectionTwo';
-
-
+import Menu from "./Menu";
+import Footer from "./Footer";
+import SectionTwo from "./SectionTwo";
 
 const App = () => {
   return (
     <div>
-      <TopHeader/>
+      <TopHeader />
       <NavBar />
-      <SectionTwo/>
+      <SectionTwo />
       <SectionThree />
       <SectionFour />
-      <Menu/>
+      <Menu />
       <Dishes />
       <OnlineReservation />
       <AboutUs />
@@ -33,9 +30,7 @@ const App = () => {
       <Newsletter />
       <Gallery />
       <Location />
-      <Footer/>
-     
-
+      <Footer />
     </div>
   );
 };

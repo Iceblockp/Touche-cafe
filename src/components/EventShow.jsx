@@ -1,26 +1,25 @@
 import React, { useState } from "react";
 
 const EventShow = () => {
-
-  const [first,setFirst] = useState(true);
-  const [second,setSecond] = useState(false);
-  const [third,setThird] = useState(false);
+  const [first, setFirst] = useState(true);
+  const [second, setSecond] = useState(false);
+  const [third, setThird] = useState(false);
 
   const firseHandle = () => {
     setFirst(!first);
     setSecond(false);
     setThird(false);
-  }
+  };
   const secondHandle = () => {
     setSecond(!second);
     setFirst(false);
     setThird(false);
-  }
+  };
   const thirdHandle = () => {
     setThird(!third);
     setSecond(false);
     setFirst(false);
-  }
+  };
 
   return (
     <div className=" py-7 border-b border-b-gray-300">
@@ -61,30 +60,32 @@ const EventShow = () => {
           </div>
         </div>
         {first && (
-          <div className={` relative overflow-hidden bg-[url('https://yevgenysim-turkey.github.io/touche/assets/img/8.jpg')] bg-cover bg-center`}>
-          <div className=" relative z-30 ">
-            <div className=" p-5 max-w-sm ml-[5%]">
-              <p className=" mt-20 text-[0.75rem] font-[700] tracking-[0.05em] text-[#f5a637] mb-4 ">
-                SEPTEMBER 30, 2017
-              </p>
-              <p className=" text-white font-heading mb-4 font-[400] leading-[1.4] text-[1.75rem] ">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dolorum voluptas, aut ea quae!
-              </p>
-              <p className=" font-[400] text-[1rem] mb-5 leading-[1.7] text-[rgba(255,255,255,.75)] ">
-                Alias earum, labore doloremque iusto a modi et, dolorem
-                veritatis iste quis ab.facere est optio, voluptate molestias
-                aspernatur impedit perferendis odit?
-              </p>
+          <div
+            className={` relative overflow-hidden bg-[url('https://yevgenysim-turkey.github.io/touche/assets/img/8.jpg')] bg-cover bg-center`}
+          >
+            <div className=" relative z-30 ">
+              <div className=" p-5 max-w-sm ml-[5%]">
+                <p className=" mt-20 text-[0.75rem] font-[700] tracking-[0.05em] text-[#f5a637] mb-4 ">
+                  SEPTEMBER 30, 2017
+                </p>
+                <p className=" text-white font-heading mb-4 font-[400] leading-[1.4] text-[1.75rem] ">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolorum voluptas, aut ea quae!
+                </p>
+                <p className=" font-[400] text-[1rem] mb-5 leading-[1.7] text-[rgba(255,255,255,.75)] ">
+                  Alias earum, labore doloremque iusto a modi et, dolorem
+                  veritatis iste quis ab.facere est optio, voluptate molestias
+                  aspernatur impedit perferendis odit?
+                </p>
 
-              <div>
-                <button className=" font-p[700] border border-[#f5a637] text-white  hover:text-[#f5a637] text-[0.75rem] tracking-[0.05em] px-[32px] py-[16px] ">
-                  RESERVE A TABLE
-                </button>
+                <div>
+                  <button className=" font-p[700] border border-[#f5a637] text-white  hover:text-[#f5a637] text-[0.75rem] tracking-[0.05em] px-[32px] py-[16px] ">
+                    RESERVE A TABLE
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         )}
       </div>
 
@@ -111,37 +112,37 @@ const EventShow = () => {
             </div>
           </div>
         </div>
-        { second && (
+        {second && (
           <div className=" origin-top  overflow-hidden bg-[url('https://miro.medium.com/v2/resize:fit:3840/format:webp/1*Mnl_G4C6F7vfxEqsL0X_iw.jpeg')] bg-cover bg-center">
-          <div className=" relative z-30 ">
-            <div className=" p-5 max-w-sm ml-[5%]">
-              <p className=" mt-20 text-[0.75rem] font-[700] tracking-[0.05em] text-[#f5a637] mb-4 ">
-                SEPTEMBER 29, 2017
-              </p>
-              <p className=" text-white font-heading mb-4 font-[400] leading-[1.4] text-[1.75rem] ">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dolorum voluptas, aut ea quae!
-              </p>
-              <p className=" font-[400] text-[1rem] mb-5 leading-[1.7] text-[rgba(255,255,255,.75)] ">
-                Alias earum, labore doloremque iusto a modi et, dolorem
-                veritatis iste quis ab.facere est optio, voluptate molestias
-                aspernatur impedit perferendis odit?
-              </p>
+            <div className=" relative z-30 ">
+              <div className=" p-5 max-w-sm ml-[5%]">
+                <p className=" mt-20 text-[0.75rem] font-[700] tracking-[0.05em] text-[#f5a637] mb-4 ">
+                  SEPTEMBER 29, 2017
+                </p>
+                <p className=" text-white font-heading mb-4 font-[400] leading-[1.4] text-[1.75rem] ">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolorum voluptas, aut ea quae!
+                </p>
+                <p className=" font-[400] text-[1rem] mb-5 leading-[1.7] text-[rgba(255,255,255,.75)] ">
+                  Alias earum, labore doloremque iusto a modi et, dolorem
+                  veritatis iste quis ab.facere est optio, voluptate molestias
+                  aspernatur impedit perferendis odit?
+                </p>
 
-              <div>
-                <button className=" font-p[700] border border-[#f5a637] text-white  hover:text-[#f5a637] text-[0.75rem] tracking-[0.05em] px-[32px] py-[16px] ">
-                  RESERVE A TABLE
-                </button>
+                <div>
+                  <button className=" font-p[700] border border-[#f5a637] text-white  hover:text-[#f5a637] text-[0.75rem] tracking-[0.05em] px-[32px] py-[16px] ">
+                    RESERVE A TABLE
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         )}
       </div>
 
       {/* third  */}
       <div className="">
-        <div onClick={thirdHandle} >
+        <div onClick={thirdHandle}>
           <div className=" w-10/12 lg:w-9/12  flex mx-auto justify-between">
             <div className=" w-2/12 p-3">
               <h1 className=" font-heading text-[2.5rem] font-[700]  ">28</h1>
@@ -164,29 +165,29 @@ const EventShow = () => {
         </div>
         {third && (
           <div className=" origin-top overflow-hidden bg-[url('https://yevgenysim-turkey.github.io/touche/assets/img/10.jpg?fbclid=IwAR1v-x-0W3H9CFUhfLiemsfJgzZ6LgyfAS1fLXhidsjNy12AxKtY9lyRxfI')] bg-cover bg-center">
-          <div className=" relative z-30 ">
-            <div className=" p-5 max-w-sm ml-[5%]">
-              <p className=" mt-20 text-[0.75rem] font-[700] tracking-[0.05em] text-[#f5a637] mb-4 ">
-                SEPTEMBER 28, 2017
-              </p>
-              <p className=" text-white font-heading mb-4 font-[400] leading-[1.4] text-[1.75rem] ">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dolorum voluptas, aut ea quae!
-              </p>
-              <p className=" font-[400] text-[1rem] mb-5 leading-[1.7] text-[rgba(255,255,255,.75)] ">
-                Alias earum, labore doloremque iusto a modi et, dolorem
-                veritatis iste quis ab.facere est optio, voluptate molestias
-                aspernatur impedit perferendis odit?
-              </p>
+            <div className=" relative z-30 ">
+              <div className="  max-w-[540px] mx-auto">
+                <p className=" mt-20 text-[0.75rem] font-[700] tracking-[0.05em] text-[#f5a637] mb-4 ">
+                  SEPTEMBER 28, 2017
+                </p>
+                <p className=" text-white font-heading mb-4 font-[400] leading-[1.4] text-[1.75rem] ">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolorum voluptas, aut ea quae!
+                </p>
+                <p className=" font-[400] text-[1rem] mb-5 leading-[1.7] text-[rgba(255,255,255,.75)] ">
+                  Alias earum, labore doloremque iusto a modi et, dolorem
+                  veritatis iste quis ab.facere est optio, voluptate molestias
+                  aspernatur impedit perferendis odit?
+                </p>
 
-              <div>
-                <button className=" font-p[700] border border-[#f5a637] text-white  hover:text-[#f5a637] text-[0.75rem] tracking-[0.05em] px-[32px] py-[16px] ">
-                  RESERVE A TABLE
-                </button>
+                <div>
+                  <button className=" font-p[700] border border-[#f5a637] text-white  hover:text-[#f5a637] text-[0.75rem] tracking-[0.05em] px-[32px] py-[16px] ">
+                    RESERVE A TABLE
+                  </button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         )}
       </div>
     </div>
