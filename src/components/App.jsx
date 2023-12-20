@@ -17,20 +17,20 @@ import SectionTwo from "./SectionTwo";
 const App = () => {
   return (
     <div>
-      <TopHeader />
-      <NavBar />
-      <SectionTwo />
-      <SectionThree />
-      <SectionFour />
-      <Menu />
-      <Dishes />
+      {/* <TopHeader /> */}
+      {/* <NavBar /> */}
+      {/* <SectionTwo /> */}
+      {/* <SectionThree /> */}
+      {/* <SectionFour /> */}
+      {/* <Menu /> */}
+      {/* <Dishes /> */}
       <OnlineReservation />
-      <AboutUs />
-      <EventShow />
-      <Newsletter />
-      <Gallery />
-      <Location />
-      <Footer />
+      {/* <AboutUs /> */}
+      {/* <EventShow /> */}
+      {/* <Newsletter /> */}
+      {/* <Gallery /> */}
+      {/* <Location /> */}
+      {/* <Footer /> */}
     </div>
   );
 };
