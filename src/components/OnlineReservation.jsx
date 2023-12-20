@@ -3,7 +3,7 @@ import React from "react";
 const OnlineReservation = () => {
   return (
     <section className=" py-9 border-b border-b-gray-300 bg-[#e9ecef]">
-      <div className="container mx-auto mb-10">
+      <div className=" mx-auto mb-10">
         <div className="flex justify-center">
           <div className=" text-center max-w-[540px] px-[16px] md:max-w-[480px] ">
             <h1 className=" font-heading font-[400] text-[1.75rem] leading-[1.4] mb-2">
