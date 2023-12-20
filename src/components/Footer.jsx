@@ -1,84 +1,96 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhoneFlip } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
-    <div className="py-28 md:py-20  bg-black">
-      <div className="lg:w-[1180px] md:w-[900px] sm:w-[600px] w-[400px ] px-4 mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-3  gap-4 justify-around  ">
-          <div className=" px-7 md:px-9 ">
-            <h2 className="text-yellow-400 font-bold text-xs mb-4">ABOUT US</h2>
-            <p className="text-gray-500 mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-              odio expedita debitis aut voluptatem a dignissimos numquam itaque
-              saepe .
+    <div className="lg:py-24 py-12  bg-black">
+      <div className="xl:w-[1140px] lg:w-[960px] md:w-[720px] sm:w-[540px] mx-auto">
+        <div className="grid md:grid-cols-3 sm:grid-cols-1 justify-around lg:h-[200px] md:h-[230px] h-auto">
+          {/* About Us */}
+          <div className=" px-6 ">
+            <h2 className="text-yellow-400 font-bold text-xs mb-3 ">
+              ABOUT US
+            </h2>
+            <p className="text-gray-500 mb-12 leading-7 md:w-full w-[340px]">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+              dolorum, sint corporis nostrum, possimus unde eos vitae eius quasi
+              saepe.
             </p>
           </div>
-          <div className="  px-7 ">
-            <h2 className="text-yellow-400 font-bold text-xs mb-4">CONTACT INFO</h2>
-            <div className="text-gray-500  flex gap-2 ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor
-            "
-                className="w-4 h-6 "
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <p className="mb-3">1234 Altschul, Los Angles, CA 10027-0000</p>
-            </div>
-            <div className="text-gray-500 flex gap-2 ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="w-4 h-6 "
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
-                  clipRule="evenodd"
-                />
-              </svg>
 
-              <p className="mb-3">+1 987 654 3210</p>
-            </div>
-            <div className="text-gray-500  flex gap-2 ">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-4 h-6 absolute ">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-</svg>
-              <a className="underline text-yellow-400 ml-7 mb-6 cursor-pointer">admin@domain.com</a>
-            </div>
+          {/* Contact Info */}
+          <div className="  px-6 ">
+            <h2 className="text-yellow-400 font-bold text-xs mb-3">
+              CONTACT INFO
+            </h2>
+            <ul className="mb-12">
+              <li className="text-gray-500 flex   ">
+                <FontAwesomeIcon
+                  icon={faLocationDot}
+                  className="w-3.5 h-3.5 me-3 mt-2"
+                />
+                <p className="mb-2 leading-7 w-[270px] sm:w-auto">
+                  1234 Altschul, Los Angles, CA 10027-0000
+                </p>
+              </li>
+              <li className="text-gray-500 flex ">
+                <div className=" text-gray-500">
+                  <FontAwesomeIcon
+                    icon={faPhoneFlip}
+                    className="w-3.5 h-3.5 me-3 mt-2"
+                  />
+                </div>
+
+                <p className="mb-3 leading-7">+1 987 654 3210</p>
+              </li>
+              <li className="text-gray-500 flex ">
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="w-3.5 h-3.5 me-3 mt-2"
+                />
+                <a className="underline text-yellow-400 mb-6 sm:mb-0 leading-7 cursor-pointer">
+                  admin@domain.com
+                </a>
+              </li>
+            </ul>
           </div>
-          <div className="  px-7 ">
-            <h2 className="text-yellow-400 font-bold text-xs mb-4">
+
+          {/* Opening Hours */}
+          <div className="px-6">
+            <h2 className="text-yellow-400 font-bold text-xs mb-3 leading-4">
               OPENING HOURS
             </h2>
-            <div className="text-gray-500  text-sm uppercase ">
-              monday - thursday 
-              <div className="mb-3 font-heading font-bold text-sm">
-              10:000 am - 11:00 pm
+            <div className="">
+              <div className="text-gray-500 uppercase mb-4 ">
+                <div className="font-bold text-xs tracking-wider leading-5">
+                  {" "}
+                  monday - thursday
+                </div>
+                <div className="font-heading test-base leading-7">
+                  10:00 am - 11:00 pm
+                </div>
               </div>
-             
-              friday - sunday
-              <div className="mb-3 font-heading font-bold text-md">
-              12:00 am -03:00 am
+              <div className="mb-10 text-gray-500 uppercase">
+                <div className="text-xs font-bold tracking-wider leading-5">
+                  {" "}
+                  friday - sunday
+                </div>
+                <div className=" font-heading  text-base leading-7">
+                  12:00 am - 03:00 am
+                </div>
               </div>
             </div>
           </div>
-
-        
         </div>
-        <div className="text-gray-500 px-7 flex items-center mb-5">
-          <hr className="me-3 w-10 " />
-          <p> © 2021 Touché. All rights reserved.</p>
-          </div>
+        {/* CopyRight */}
       </div>
-     
+      <div className="xl:w-[1140px] lg:w-[960px] md:w-[720px] sm:w-[540px] text-gray-500  flex items-center px-6 mx-auto ">
+        <hr className="me-3 w-8 " />
+        <p> © 2021 Touché. All rights reserved.</p>
+      </div>
     </div>
   );
 };
