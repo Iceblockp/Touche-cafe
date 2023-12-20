@@ -8,6 +8,7 @@ import Newsletter from "./Newsletter";
 import EventShow from "./EventShow";
 import AboutUs from "./AboutUs";
 import SectionFour from "./SectionFour";
+import SectionTwo from "./SectionTwo";
 import Location from "./Location";
 import NavBar from "./NavBar";
 import TopHeader from "./TopHeader";
