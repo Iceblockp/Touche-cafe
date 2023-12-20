@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const SectionTwo = () => {
   return (
     <section className="py-7">
-
-      <div className="container mx-auto">
+      <div className=" mx-auto xl:w-[1140px] lg:w-[960px] md:w-[720px] min-[540px]:w-[540px] max-[540px]:w-[370px]  px-4">
         <div className="flex justify-center">
-          <div className=" grid grid-cols-1 md:gap-8 md:grid-cols-12 w-10/12 mx-auto mt-10">
+          <div className=" grid grid-cols-1 md:gap-8 md:grid-cols-12  mt-10">
             <div className=" md:col-span-2">
               <hr className=" w-8 h-[3px] mb-3 bg-[#f5a637]" />
               <p className="text-[1.125rem] mb-7 font-[400]">
@@ -39,15 +38,13 @@ const SectionTwo = () => {
                     iure! Quaerat itaque aspernatur est deserunt soluta!
                   </p>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
       </div>
-  
-  </section>
-  )
-}
+    </section>
+  );
+};
 
-export default SectionTwo
+export default SectionTwo;
