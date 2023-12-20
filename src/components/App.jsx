@@ -8,18 +8,18 @@ import Newsletter from "./Newsletter";
 import EventShow from "./EventShow";
 import AboutUs from "./AboutUs";
 import SectionFour from "./SectionFour";
-
 import SectionTwo from "./SectionTwo";
 import Location from "./Location";
-
 import NavBar from "./NavBar";
 import TopHeader from "./TopHeader";
 import Menu from "./Menu";
 import Footer from "./Footer";
+import SectionTwo from "./SectionTwo";
 
 const App = () => {
   return (
-    <div>
+
+    <div className=" overflow-hidden">
       <TopHeader />
       <NavBar />
       <SectionTwo />
