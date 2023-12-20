@@ -26,7 +26,10 @@ const TopHeader = () => {
       >
 
         <div className=" hidden lg:flex  font-bold text-xs">
+
+
           <a className="p-4  hover:text-yellow-400" href="">
+
 
             ABOUT US
           </a>
