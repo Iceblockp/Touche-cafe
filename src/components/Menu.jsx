@@ -37,7 +37,7 @@ const Menu = () => {
 
         {/* food item */}
         <div className=" ">
-          <div className=" grid grid-cols-1 max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140] mx-auto md:grid-cols-2 gap-4">
+          <div className=" grid grid-cols-1 max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] mx-auto md:grid-cols-2 gap-4">
             <div className=" font-[400] border-b border-b-gray-300">
               <div className=" grid grid-cols-12 gap-3">
                 <div className=" col-span-3 flex justify-center items-center p-2 ">
