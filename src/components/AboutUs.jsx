@@ -28,20 +28,20 @@ const AboutUs = () => {
           <div className="relative h-[600px] overflow-hidden rounded-lg md:h-96">
             {/* Item 1 */}
             <div
-              className="hidden bg-white  duration-700 ease-in-out"
+              className="hidden bg-white duration-700 ease-in-out"
               data-carousel-item
             >
-              <div className=" w-9/12 mx-auto">
-                <div className=" md:flex flex-row-reverse w-10/12 mx-auto">
-                  <div className=" w-full flex justify-center">
-                    <div>
+              <div className=" max-w-[540px]  md:max-w-[600px] lg:max-w-[800px] mx-auto">
+                <div className=" md:flex flex-row-reverse  mx-auto">
+                  <div className=" w-full flex justify-center items-center">
+                    <div className=" lg:max-w-[285px] px-[16px]">
                       <img className=" rounded-full" src={review1} alt="" />
                     </div>
                   </div>
 
                   <div className=" flex items-center">
-                    <div>
-                      <div className=" font-heading text-[1.125rem] font-[400] leading-[1.7] ">
+                    <div className="px-[16px]">
+                      <div className=" font-heading text-[1.125rem] font-[400] leading-[1.7]  ">
                         <p>
                           "Lorem ipsum dolor sit amet, consectetur adipisicing
                           elit. Eos at veritatis vitae modi ex quis quibusdam
@@ -62,10 +62,10 @@ const AboutUs = () => {
               className="hidden bg-white  duration-700 ease-in-out"
               data-carousel-item
             >
-              <div className=" w-9/12 mx-auto">
-                <div className=" md:flex flex-row-reverse w-10/12 mx-auto">
-                  <div className=" w-full flex justify-center">
-                    <div>
+              <div className="  max-w-[540px]  md:max-w-[600px] lg:max-w-[800px] mx-auto">
+                <div className="md:flex flex-row-reverse  mx-auto">
+                  <div className=" w-full flex justify-center items-center">
+                    <div className=" lg:max-w-[285px] px-[16px] max-w-[372px]">
                       <img className=" rounded-full" src={review2} alt="" />
                     </div>
                   </div>
@@ -93,10 +93,10 @@ const AboutUs = () => {
               className="hidden bg-white  duration-700 ease-in-out"
               data-carousel-item
             >
-              <div className=" w-9/12 mx-auto">
-                <div className=" md:flex flex-row-reverse w-10/12 mx-auto">
-                  <div className=" w-full flex justify-center">
-                    <div>
+              <div className="  max-w-[540px]  md:max-w-[600px] lg:max-w-[800px] mx-auto">
+                <div className=" md:flex flex-row-reverse  mx-auto">
+                  <div className=" w-full flex justify-center items-center">
+                    <div className=" lg:max-w-[285px] px-[16px]">
                       <img className=" rounded-full" src={review3} alt="" />
                     </div>
                   </div>
@@ -147,7 +147,7 @@ const AboutUs = () => {
           {/* Slider controls */}
           <button
             type="button"
-            className="absolute bg-white 
+            className="absolute 
              top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
             data-carousel-prev
           >
