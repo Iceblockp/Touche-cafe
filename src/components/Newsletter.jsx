@@ -16,16 +16,16 @@ const Newsletter = () => {
           </div>
         </div>
         <div className=" w-full flex ">
-          <div className=" w-8/12 mx-auto flex  gap-5 md:w-7/12">
+          <div className=" mx-auto flex gap-5 ">
             <div className=" md:w-7/12">
               <input
-                className=" w-full p-3 focus:outline-none border-none focus:border-yellow-300"
+                className=" w-full h-full p-3 focus:outline-none border-none focus:border-yellow-300"
                 type="text"
               />
             </div>
             <div className=" md:w-5/12" >
               <button className=" border border-[#f5a637] px-[32px] py-[16px] font-[700] text-[.75rem] ">
-                RESERVE A TABLE
+                SUBSCRIBE
               </button>
             </div>
           </div>
