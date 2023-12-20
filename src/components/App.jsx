@@ -17,6 +17,7 @@ import SectionTwo from "./SectionTwo";
 
 const App = () => {
   return (
+
     <div className=" overflow-hidden">
       <TopHeader />
       <NavBar />
