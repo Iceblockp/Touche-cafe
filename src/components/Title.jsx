@@ -33,7 +33,7 @@ const Title = () => {
         </div>
       </div>
 
-      <div className="flex justify-between items-center gap-8  flex-col md:flex-row w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px]  px-4 mt-auto mx-auto">
+      <div className="flex justify-between items-center gap-8  flex-col md:flex-row max-[370px]:w-[280px] max-[540px]:w-[370px ]sm:w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px]  px-4 mt-auto mx-auto">
         <div
           id="socialLinks"
           className="md:mb-14 mb-0 flex md:justify-center  gap-8 "
