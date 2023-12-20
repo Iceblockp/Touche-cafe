@@ -20,7 +20,7 @@ const TopHeader = () => {
         }`}
       ></div>
       <div
-        className={`flex z-50 max-w-1140 mx-auto relative ${
+        className={`flex z-50 xl:w-[1140px] lg:w-[960px] md:w-[720px] w-[540px] mx-auto relative  ${
           !start || nav ? "text-black" : "text-white"
         } items-center justify-between pt-5 mt-2`}
       >
