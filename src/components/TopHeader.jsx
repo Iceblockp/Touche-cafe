@@ -20,17 +20,12 @@ const TopHeader = () => {
         }`}
       ></div>
       <div
-        className={`flex z-50 xl:w-[1140px] lg:w-[960px] md:w-[720px] min-[540px]:w-[540px] max-[540px]:w-[370px] mx-auto relative  ${
+        className={`flex z-50 px-4 xl:w-[1140px] lg:w-[960px] md:w-[720px] min-[540px]:w-[540px] max-[540px]:w-[370px] mx-auto relative  ${
           !start || nav ? "text-black" : "text-white"
         } items-center justify-between pt-5 mt-2`}
       >
-
         <div className=" hidden lg:flex  font-bold text-xs">
-
-
           <a className="p-4  hover:text-yellow-400" href="">
-
-
             ABOUT US
           </a>
           <a className="p-4 hover:text-yellow-400" href="#MENU">
@@ -41,7 +36,7 @@ const TopHeader = () => {
           </a>
         </div>
         <a
-          className=" font-heading p-4 font-[400] text-[2rem] hover:text-yellow-400"
+          className=" font-heading py-4 font-[400] text-[2rem] hover:text-yellow-400"
           href="#Touche"
         >
           <i>Touché</i>

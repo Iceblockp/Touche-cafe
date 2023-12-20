@@ -14,11 +14,9 @@ import NavBar from "./NavBar";
 import TopHeader from "./TopHeader";
 import Menu from "./Menu";
 import Footer from "./Footer";
-import SectionTwo from "./SectionTwo";
 
 const App = () => {
   return (
-
     <div className=" overflow-hidden">
       <TopHeader />
       <NavBar />
