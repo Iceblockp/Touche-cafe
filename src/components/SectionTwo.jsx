@@ -45,7 +45,7 @@ const SectionTwo = () => {
           </div>
         </div>
       </div>
-    </div>
+  
   </section>
   )
 }
