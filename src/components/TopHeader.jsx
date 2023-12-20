@@ -24,8 +24,13 @@ const TopHeader = () => {
           !start || nav ? "text-black" : "text-white"
         } items-center justify-between pt-5 mt-2`}
       >
+
         <div className=" hidden lg:flex  font-bold text-xs">
-          <a className="p-4 hover:text-yellow-400" href="">
+
+
+          <a className="p-4  hover:text-yellow-400" href="">
+
+
             ABOUT US
           </a>
           <a className="p-4 hover:text-yellow-400" href="#MENU">
