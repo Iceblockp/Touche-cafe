@@ -20,12 +20,14 @@ const TopHeader = () => {
         }`}
       ></div>
       <div
-        className={`flex z-50 w-10/12 mx-auto relative ${
+        className={`flex z-50 max-w-1140 mx-auto relative ${
           !start || nav ? "text-black" : "text-white"
-        } items-center justify-between pt-5`}
+        } items-center justify-between pt-5 mt-2`}
       >
-        <div className=" hidden lg:flex  font-bold text-sm">
-          <a className="p-4 hover:text-yellow-400" href="">
+
+        <div className=" hidden lg:flex  font-bold text-xs">
+          <a className="p-4  hover:text-yellow-400" href="">
+
             ABOUT US
           </a>
           <a className="p-4 hover:text-yellow-400" href="#MENU">
@@ -41,7 +43,7 @@ const TopHeader = () => {
         >
           <i>Touché</i>
         </a>
-        <div className=" hidden lg:flex  gap-4 font-bold text-sm ">
+        <div className=" hidden lg:flex gap-4 font-bold text-xs ">
           <a className="p-4 hover:text-yellow-400" href="#NEWS & EVENTS">
             NEWS & EVENTS
           </a>
@@ -79,7 +81,7 @@ const TopHeader = () => {
       <div
         className={`items-center justify-between top-0 z-40 pt-16 ${
           nav ? "" : "-translate-y-full"
-        } lg:-translate-y-full duration-300 fixed w-screen bg-white`}
+        } lg:-translate-y-full duration-300 fixed w-full bg-white`}
       >
         <ul className="flex w-10/12 mx-auto flex-col p-4 font-[700] text-[0.75rem] border border-gray-100 rounded-lg bg-gray-50 rtl:space-x-reverse  ">
           <li>
