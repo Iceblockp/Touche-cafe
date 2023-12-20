@@ -10,7 +10,7 @@ import EventShow from "./EventShow";
 import AboutUs from "./AboutUs";
 import SectionFour from "./SectionFour";
 
-import SectionTwo from "./sectionTwo";
+import SectionTwo from "./SectionTwo";
 import Location from "./Location";
 
 import NavBar from "./NavBar";
@@ -25,7 +25,7 @@ const App = () => {
       <TopHeader/>
       <NavBar />
       <SectionTwo />
-      {/* <SectionThree /> */}
+      <SectionThree />
       <SectionFour />
       <Menu/>
       <Dishes />
