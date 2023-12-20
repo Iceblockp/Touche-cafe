@@ -11,8 +11,8 @@ import gallery8 from "../image/gallery8.jpg";
 
 const GalleryPhotos = () => {
   return (
-    <div className="grid md:grid-cols-3 grid-cols-2 relative gap-4 p-4 ">
-      <div className=" ">
+    <div className="grid md:grid-cols-3 grid-cols-2 relative  gap-4 p-4 ">
+      <div className="sm:w-[180px] ">
         <img
           src={gallery1}
           alt=""
@@ -20,25 +20,25 @@ const GalleryPhotos = () => {
         "
         />
       </div>
-      <div className=" row-span-2">
+      <div className="sm:w-[180px] row-span-2">
         <img src={gallery2} alt="" className=" cursor-pointer h-full" />
       </div>
-      <div className="">
+      <div className="sm:w-[180px]">
         <img src={gallery3} alt="" className=" cursor-pointer h-full" />
       </div>
-      <div className="">
+      <div className="sm:w-[180px]">
         <img src={gallery4} alt="" className=" cursor-pointer h-full " />
       </div>
-      <div className="">
+      <div className="sm:w-[180px]">
         <img src={gallery5} alt="" className=" cursor-pointer h-full" />
       </div>
-      <div className="">
+      <div className="sm:w-[180px]">
         <img src={gallery6} alt="" className=" cursor-pointer h-full" />
       </div>
-      <div className="">
+      <div className="sm:w-[180px]">
         <img src={gallery7} alt="" className=" cursor-pointer h-full" />
       </div>
-      <div className="">
+      <div className="sm:w-[180px]">
         <img src={gallery8} alt="" className=" cursor-pointer h-full" />
       </div>
     </div>

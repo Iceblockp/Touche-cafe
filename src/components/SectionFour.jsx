@@ -10,9 +10,9 @@ const SectionFour = () => {
           src={coffeeBottle}
           alt=""
         /> */}
-         <div className=" z-30 w-full absolute bg-gradient-to-b from-white to-transparent">
+        <div className=" z-30 w-full absolute bg-gradient-to-b from-white to-transparent">
           <div className="flex items-center md:py-9">
-            <div className=" w-10/12 mx-auto pl-4 mt-10 ">
+            <div className=" xl:w-[1140px] lg:w-[960px] md:w-[720px] w-[540px] mx-auto pl-4 mt-10 ">
               <hr className=" relative w-8 h-[3px] mb-3 bg-[#f5a637]" />
               <p className="z-10 relative text-[1.125rem] font-[400] lg:w-4/12 md:w-6/12">
                 Enjoy our specialty coffees and award winning doughnuts in a
@@ -28,7 +28,6 @@ const SectionFour = () => {
             backgroundPosition: "50% 60%",
           }}
         ></div>
-       
       </div>
     </section>
   );

@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 sm:grid-cols-1 justify-around lg:h-[200px] md:h-[230px] h-auto">
           {/* About Us */}
           <div className=" px-6 ">
-            <h2 className="text-yellow-400 font-bold text-xs mb-3 ">
+            <h2 className="text-yellow-400 font-bold text-xs mb-3 tracking-wider">
               ABOUT US
             </h2>
             <p className="text-gray-500 mb-12 leading-7 md:w-full w-[340px]">
@@ -23,7 +23,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div className="  px-6 ">
-            <h2 className="text-yellow-400 font-bold text-xs mb-3">
+            <h2 className="text-yellow-400 font-bold text-xs mb-3 tracking-wider">
               CONTACT INFO
             </h2>
             <ul className="mb-12">
@@ -60,7 +60,7 @@ const Footer = () => {
 
           {/* Opening Hours */}
           <div className="px-6">
-            <h2 className="text-yellow-400 font-bold text-xs mb-3 leading-4">
+            <h2 className="text-yellow-400 font-bold text-xs mb-3 leading-4 tracking-wider">
               OPENING HOURS
             </h2>
             <div className="">
