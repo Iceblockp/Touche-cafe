@@ -33,8 +33,11 @@ const Title = () => {
         </div>
       </div>
 
-      <div className="flex justify-between items-center gap-8 flex-col md:flex-row mt-16 xl:w-[1140px] lg:w-[960px] md:w-[720px] min-[540px]:w-[540px] mx-auto px-4 ">
-        <div id="socialLinks" className="mb-14 flex gap-8">
+      <div className="flex justify-between items-center gap-8  flex-col md:flex-row w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px]  px-4 mt-auto mx-auto">
+        <div
+          id="socialLinks"
+          className="md:mb-14 mb-0 flex md:justify-center  gap-8 "
+        >
           <div className=" hover:text-yellow-400">
             <a href="https://twitter.com/?lang=en">
               <FontAwesomeIcon icon={faXTwitter} />
@@ -52,7 +55,7 @@ const Title = () => {
           </div>
         </div>
 
-        <div id="address" className="">
+        <div id="address" className=" mb-14    ">
           <div className="">
             <div className=" flex gap-2 justify-center items-center text-center">
               <div>
