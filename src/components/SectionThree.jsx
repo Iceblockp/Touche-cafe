@@ -4,7 +4,7 @@ const SectionThree = () => {
   return (
     <section className="py-7">
       <div className="  flex w-full">
-        <div className=" w-10/12 mx-auto mt-10 md:flex justify-between flex-row-reverse">
+        <div className=" mx-auto xl:w-[1140px] lg:w-[960px] md:w-[720px] w-[540px] px-4  mt-10 md:flex justify-between flex-row-reverse">
           <div className=" md:w-6/12 md:flex ">
             <div className=" h-full mx-auto md:flex justify-center items-end ">
               <div>
@@ -27,7 +27,7 @@ const SectionThree = () => {
             </div>
           </div>
 
-          <div className="mt-5 lg:mt-28 h-full mx-auto justify-center md:w-5/12 items-center text-center ">
+          <div className="mt-5 lg:mt-28 h-full  justify-center md:w-5/12 items-center text-center ">
             <h2 className="font-heading font-[400] text-[1.75rem]  text-start">
               <i>Beautiful</i> outdoor seating
             </h2>
